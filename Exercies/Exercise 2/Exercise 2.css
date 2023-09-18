@@ -109,6 +109,7 @@
     grid-template-columns: repeat(15, 1fr);
     grid-template-rows: repeat(17, 1fr);
 }
+
 .apple {
     background: #862A2B;
 }
