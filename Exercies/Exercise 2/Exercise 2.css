@@ -1,0 +1,103 @@
+/* CSS Document */
+
+.painting-1 {
+    display: grid;
+    width: 600px;
+    height: 600px;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+}
+
+.cream {
+    background: #FBF5E3;
+}
+
+.red {
+    background: #F04A3A;
+}
+
+.blue {
+    background: #4496C5;
+}
+
+.yellow {
+    background: #F8DF00;
+}
+
+.black {
+    background: #4B413A;
+}
+
+.border-right-1 {
+    border-right: 13px solid #4B413A;
+}
+.border-left-1 {
+    border-left: 13px solid #4B413A;
+}
+.border-top-1 {
+    border-top: 14px solid #4B413A;
+}
+.border-top-1-2 {
+    border-top: 20px solid #4B413A;
+}
+.border-bottom-1 {
+    border-bottom: 25px solid #4B413A;
+}
+
+.painting-2 {
+    display: grid;
+    width: 600px;
+    height: 600px;
+    grid-template-columns: repeat(20, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+}
+
+.dark-blue {
+    background: #0319A5;
+}
+
+.blueish-white {
+    background: #BDCFD3;
+}
+
+.yellowish-white {
+    background: #F3F7DC;
+}
+
+.dark-yellow {
+    background: #E1B428;
+}
+
+.border-right-thin-2 {
+    border-right: 3px solid #000;
+}
+.border-right-thick-2 {
+    border-right: 14px solid #000;
+}
+.border-right-thick-2-2 {
+    border-right: 17px solid #000;
+}
+.border-left-thick-2 {
+    border-left: 17px solid #000;
+}
+.border-bottom-thin-2 {
+    border-bottom: 3px solid #000;
+}
+.border-bottom-thin-2-2 {
+    border-bottom: 5px solid #000;
+}
+.border-bottom-thick-2 {
+    border-bottom: 20px solid #000;
+}
+.border-top-thin-2 {
+    border-top: 3px solid #000;
+}
+.border-top-thick-2 {
+    border-top: 10px solid #000;
+}
+.font {
+    font-size: 30px;
+}
+.font-1 {
+    font-size: 30px;
+}
