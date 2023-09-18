@@ -101,3 +101,65 @@
 .font-1 {
     font-size: 30px;
 }
+
+.painting-3 {
+    display: grid;
+    width: 600px;
+    height: 680px;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(17, 1fr);
+}
+.apple {
+    background: #862A2B;
+}
+.banana {
+    background: #D59B09;
+}
+.pink {
+    background: #D5A7EC;
+}
+.orange {
+    background: #CE5924;
+}
+.ocean {
+    background: #0960A5;
+}
+.sky {
+    background: #4895EF;
+}
+.grey-blue {
+    background: #54878B;
+}
+.border-right-3 {
+    border-right: 23px solid #D59B09;
+}
+.border-right-3-2 {
+    border-right: 20px solid #D59B09;
+}
+.border-right-3-3 {
+    border-right: 23px solid #54878B;
+}
+.border-right-3-4 {
+    border-right: 15px solid #D59B09;
+}
+.border-right-3-5 {
+    border-right: 30px solid #D59B09;
+}
+.border-right-3-6 {
+    border-right: 21px solid #D59B09;
+}
+.border-right-3-7 {
+    border-right: 21px solid #0960A5;
+}
+.border-right-3-8 {
+    border-right: 6px solid #D59B09;
+}
+.border-left-3 {
+    border-left: 25px solid #D59B09;
+}
+.border-left-3-2 {
+    border-left: 10px solid #54878B;
+}
+.border-left-3-3 {
+    border-left: 10px solid #D59B09;
+}
