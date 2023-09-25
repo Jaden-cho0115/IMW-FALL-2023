@@ -1,0 +1,49 @@
+/*Adobe Font*/
+.Expand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    font-size: 45px;
+    font-family: "transducer-variable", sans-serif;
+    font-variation-settings: "slnt" 0, "wdth" 200, "wght" 900;
+    transition: font-size 550ms ease;
+
+}
+.Expand:hover {
+    font-size: 300px;
+}
+/*Google Font*/
+.Contract {
+    font-family: 'Kenia', cursive;
+    font-size: 250px;
+    transition: font-size 550ms ease;
+}
+.Contract:hover {
+    font-size: 25px;
+}
+@font-face {
+    font-family: 'Bespoke';
+    src: url('fonts/Bespoke-EzYVLDLoDx.eot');
+    src: url('fonts/Bespoke-EzYVLDLoDx.eot?#iefix') format('embedded-opentype'),
+       url('fonts/Bespoke-EzYVLDLoDx.woff') format('woff'),
+       url('fonts/Bespoke-EzYVLDLoDx.ttf') format('truetype'),
+       url('fonts/Bespoke-EzYVLDLoDx.svg#Bespoke-EzYVLDLoDx') format('svg');
+  }
+
+  .VANISH-bespoke {
+    font-size: 55px;
+    font-family: 'Bespoke', sans-serif;
+    transition: opacity 250ms ease;
+  }
+  .VANISH-bespoke:hover {
+    opacity: 0;
+  }
+
+p{
+    display: block;
+    margin-block-start: 15px;
+    margin-block-end: 15px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
