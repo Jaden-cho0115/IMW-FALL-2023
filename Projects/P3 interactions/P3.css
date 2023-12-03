@@ -1,0 +1,96 @@
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+body{
+    background: linear-gradient(320deg, #0a420f, #0bba34, #295828);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-display: swap;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    justify-content: center;
+}
+
+h1 {
+    color: aliceblue;
+    padding-bottom: 10px;
+}
+
+.calculator-body{
+    box-shadow: 0 4px 30px rgb(35, 35, 35);
+    background: rgb(144, 144, 144);
+    border-radius: 12px;
+    flex-basis: 400px;
+    height: 540px;
+    padding: 20px 35px;
+}
+
+.calculator-screen{
+    background: rgb(255, 255, 255);
+    border-radius: 12px;
+    font-size: 35px;
+    overflow: auto;
+    padding: 20px;
+    text-align: right;
+    width: 326px;
+}
+
+.calculator-button-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+
+.calculator-button{
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    flex-basis: 20%;
+    height: 65px;
+    font-family: inherit;
+    font-size: 24px;
+}
+
+.calculator-button:hover{
+    background-color: #0bba34;
+}
+
+.calculator-button:active{
+    background-color: #d63955;
+}
+
+.calculator-button:last-child{
+    background: rgb(255, 255, 255);
+    background: #fff700;
+    border-radius: 16px;
+}
+
+.calculator-button:last-child:hover{
+    color: inherit;
+    background-color: #0bba34;
+}
+
+.calculator-button:last-child:active{
+    color: inherit;
+    background-color: #d63955;
+}
+
+.double{
+    flex-basis: 47%;
+}
+
+.triple{
+    flex-basis: 73%;
+}
+
+

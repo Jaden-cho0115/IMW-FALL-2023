@@ -1,0 +1,41 @@
+
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+header {
+    background-color: #3d8076;
+    color: #fff;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5.5em;
+    padding: 1rem;
+}
+
+.artwork {
+    width: 300px;
+    margin: 1rem;
+    padding: 3rem;
+    text-align: right;
+}
+
+.artwork img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: 'Avenir', sans-serif;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
