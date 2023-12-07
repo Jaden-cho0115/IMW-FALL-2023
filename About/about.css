@@ -1,0 +1,64 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 50px;
+    font-size: 12px;
+background-color: rgb(232, 194, 22);
+}
+
+
+h2 {
+    font-size: 7em;
+    font-family: 'Righteous', sans-serif;
+    color: rgb(68, 46, 0);
+}
+
+h3 {
+    font-size: 2em;
+    font-family: 'ABeeZee', sans-serif;
+    color: rgb(68, 46, 0);
+}
+
+p {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-family: 'ABeeZee', sans-serif;
+    color: rgb(68, 46, 0);
+}
+
+
+h2,
+p {
+    margin-bottom: 40px;
+}
+
+
+.process-template {
+    width: 50%;
+    margin: auto;
+}
+
+.section {
+    margin-bottom: 100px;
+}
+
+@media (max-width: 991px) {
+    .process-template {
+        width: 60%;
+    }
+}
+
+@media (max-width:767px) {
+    body {
+        margin: 40px;
+        font-size: 10px;
+    }
+
+    .process-template {
+        width: 100%;
+    }
+}
